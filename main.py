@@ -45,6 +45,7 @@ def main():
 
     display_results(team, year, results)
     display_leaders(leaders)
+    print()
 
 
 if __name__ == "__main__":
