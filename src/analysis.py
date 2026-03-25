@@ -94,5 +94,15 @@ def analyze_team(games, stats, team):
 
         if values["sacks"] > leaders["sacks"][1]:
             leaders["sacks"] = (player, values["sacks"])
+    
+    #Allows the user to check stat categories
+    # stat_types = set()
+
+    # for stat in stats:
+    #     stat_types.add(stat.stat_type)
+
+    # print("\nSTAT TYPES:")
+    # for s in sorted(stat_types):
+    #     print(s)
 
     return wins, losses, avg_points, highest, leaders

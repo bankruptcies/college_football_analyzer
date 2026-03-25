@@ -1,3 +1,4 @@
+# displays the stats for team
 def display_results(team, year, stats):
 
     print("\n--- Team Analysis ---")
@@ -11,7 +12,7 @@ def display_results(team, year, stats):
     print(f"Average Points: {stats['avg_points']:.2f}")
     print(f"Highest Scoring Game: {stats['highest_points']}")
 
-
+# displays the leaders of team
 def display_leaders(leaders):
 
     print("\n--- Team Leaders ---")

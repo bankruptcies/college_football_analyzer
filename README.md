@@ -9,12 +9,13 @@ Built to demonstrate API integration, data processing, and real-world analytics.
 ## 🚀 Features
 
 * Retrieve game and player data from the CFBD API
+* Shows the availabe years for whatever team you are interested in
 * Analyze team performance:
 
   * Wins / Losses
   * Average points scored
   * Highest scoring game
-* Identify team leaders:
+* Identify team leaders (more to come):
 
   * Passing (TDs)
   * Rushing (Yards)

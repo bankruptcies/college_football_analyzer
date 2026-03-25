@@ -1,4 +1,4 @@
-from src.api import get_games, get_stats
+from src.api import get_games, get_stats, get_available_years
 from src.analysis import analyze_team
 from src.display import display_results, display_leaders
 
@@ -13,6 +13,11 @@ def main():
         else:
             break
 
+    years = get_available_years(team)
+
+    print("Available years for", team)
+    print(years)
+    
     # YEAR INPUT
     while True:
         try:
